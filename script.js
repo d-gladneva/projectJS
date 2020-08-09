@@ -12,6 +12,4 @@ console.log('Период равен', period, 'месяцев');
 console.log('Цель заработать', mission, 'рублей');
 console.log(budgetDay);
 
-const addExpensesLower = addExpenses.toLowerCase();
-const space = ' ';
-console.log(addExpensesLower.split(space));
+console.log(addExpenses.toLowerCase().split(''));
