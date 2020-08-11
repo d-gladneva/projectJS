@@ -1,7 +1,7 @@
 const money = prompt('Ваш месячный доход?');
 console.log(money);
 const income = 'фриланс';
-const addExpenses = String(prompt('Перечислите возможные расходы за рассчитываемый период через запятую'));
+const addExpenses = prompt('Перечислите возможные расходы за рассчитываемый период через запятую');
 console.log(typeof addExpenses);
 const deposit = confirm('Есть ли у Вас депозит в банке?');
 console.log(deposit);
@@ -16,16 +16,10 @@ console.log(addExpenses.toLowerCase().split(' '));
 
 
 const expenses1 = String(prompt('Введите обязательную статью расходов?'));
-let amount1;
-if (expenses1) {
-    amount1 = prompt('Во сколько это обойдется?');
-}
+const amount1 = prompt('Во сколько это обойдется?');
 
-const expenses2 = String(prompt('Введите обязательную статью расходов?'));
-let amount2;
-if (expenses2) {
-    amount2 = prompt('Во сколько это обойдется?');
-}
+const expenses2 = prompt('Введите обязательную статью расходов?');
+const amount2 = prompt('Во сколько это обойдется?');
 
 const budgetMonth = +money - (+amount1 + +amount2);
 const budgetDay = parseInt( budgetMonth / 30);
