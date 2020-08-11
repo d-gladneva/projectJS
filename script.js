@@ -20,7 +20,7 @@ const expenses2 = prompt('Введите обязательную статью �
 const amount2 = prompt('Во сколько это обойдется?');
 
 const getExpensesMonth = function (exp1, exp2) {
-    return console.log(+exp1 + +exp2);
+    return +exp1 + +exp2;
 };
 
 console.log(addExpenses.toLowerCase().split(' '));
@@ -51,6 +51,8 @@ let getStatusIncome = function(){
         console.log('У Вас средний уровень дохода');
     } else if (budgetDay < 600) {
         console.log('К сожалению, у Вас уровень дохода ниже среднего');
+    } else {
+        console.log('Что-то пошло не так');
     }
 };
 

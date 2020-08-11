@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="-277">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -131,7 +131,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31936000" />
+    <option name="totallyTimeSpent" value="33271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -177,8 +177,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="-277">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
