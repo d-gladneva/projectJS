@@ -34,7 +34,7 @@ const getAccumulatedMonth = function (inc) {
 
 const accumulatedMonth = getAccumulatedMonth(money);
 
-const getTargetMonth = function{
+const getTargetMonth = function(){
     return accumulatedMonth/30;
 };
 
@@ -49,9 +49,9 @@ let getStatusIncome = function(){
         console.log('У Вас высокий уровень дохода');
     } else if (budgetDay >= 600 && budgetDay < 1200) {
         console.log('У Вас средний уровень дохода');
-    } else if (budgetDay < 600) {
+    } else if (budgetDay < 600 && budgetDay > 0 ) {
         console.log('К сожалению, у Вас уровень дохода ниже среднего');
-    } else {
+    } else if (budgetDay <= 0){
         console.log('Что-то пошло не так');
     }
 };
