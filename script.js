@@ -34,12 +34,12 @@ const getAccumulatedMonth = function (inc) {
 
 const accumulatedMonth = getAccumulatedMonth(money);
 
-const getTargetMonth = function(month){
-    return month/30;
+const getTargetMonth = function{
+    return accumulatedMonth/30;
 };
 
-const budgetDay = parseInt(getTargetMonth(accumulatedMonth) / 30);
-const missionMonths = Math.round(mission / getTargetMonth(accumulatedMonth));
+const budgetDay = parseInt(getTargetMonth/30);
+const missionMonths = Math.round(mission / getTargetMonth);
 console.log('Цель будет достигнута за:', missionMonths);
 console.log('Бюджет за день:', budgetDay);
 
