@@ -6,7 +6,7 @@ let money;
 const income = 'фриланс';
 const addExpenses = prompt('Перечислите возможные расходы за рассчитываемый период через запятую');
 const deposit = confirm('Есть ли у Вас депозит в банке?');
-const mission = -12;
+const mission = 120;
 const period = 6;
 
 let start = function () {
@@ -33,7 +33,7 @@ const getExpensesMonth = function () {
 
     for (let i = 0; i < 2; i++) {
         expenses[i] = prompt('Введите обязательную статью расходов?');
-        let amount = +prompt('Во сколько это обойдется?');
+        let amount = prompt('Во сколько это обойдется?');
 
         while (!isNumber(amount)) {
             amount = prompt('Во сколько это обойдется?');
@@ -61,14 +61,11 @@ const getAccumulatedMonth = function () {
 const accumulatedMonth = getAccumulatedMonth();
 
 const getTargetMonth = function () {
-    if (mission < 0 || accumulatedMonth < 0) {
-        return ('Цель не будет достигнута');
-    }
         return mission / accumulatedMonth;
 };
 
 const budgetDay = Math.floor(accumulatedMonth / 30);
-console.log('Цель будет достигнута за:' + Math.round(getTargetMonth()) + 'мес');
+console.log(mission / accumulatedMonth < 0 ? 'Цель не будет достигнута' : 'Цель будет достигнута за: ' + Math.ceil(getTargetMonth()) + 'мес');
 console.log('Бюджет за день:', budgetDay);
 
 
