@@ -27,20 +27,19 @@ let appData = {
         appData.addExpenses = addExpenses.toLowerCase().split(' ');
         appData.deposit = confirm('Есть ли у Вас депозит в банке?');
 
-        let sum = 0;
-        appData.getExpensesMonth = function () {
+
             for (let i = 0; i < 2; i++) {
-                appData.expenses[i] = prompt('Введите обязательную статью расходов?');
-                let amount = prompt('Во сколько это обойдется?');
+                let expenses = prompt('Введите обязательную статью расходов?', "Коммуналка");
+                let amount;
 
-                while (!isNumber(amount)) {
+                 do {
                     amount = prompt('Во сколько это обойдется?');
+                } while (!isNumber(amount));
 
-                }
-                sum += +amount;
+                appData.expenses[amount] = +amount;
+
             }
-            return sum;
-        };
+
 
     },
     budget: money,
@@ -51,21 +50,22 @@ let appData = {
 
 appData.asking();
 
-console.log(appData);
 
+
+appData.getExpensesMonth = function () {
+    for (let key in appData){
+        appData.expensesMonth += appData.expenses;
+    }
+};
 
 let expensesAmount = appData.getExpensesMonth();
 
 console.log('Расходы за месяц:' + expensesAmount);
 
-console.log('Период равен', appData.period, 'месяцев');
-console.log('Цель заработать', appData.mission, 'рублей');
-
-
 appData.getBudget = function () {
     appData.budgetMonth = appData.budget - expensesAmount;
 };
-const accumulatedMonth = appData.getAccumulatedMonth();
+const accumulatedMonth = appData.getBudget();
 
 appData.getTargetMonth = function () {
     appData.expensesMonth = appData.mission / accumulatedMonth;
