@@ -32,7 +32,7 @@ let appData = {
         appData.deposit = confirm('Есть ли у Вас депозит в банке?');
 
         for (let i = 0; i < 2; i++) {
-            let expenses = prompt('Введите обязательную статью расходов?', "Коммуналка");
+            let expenses = prompt('Введите обязательную статью расходов?', 'Парковка');
             let amount;
 
             do {
@@ -46,7 +46,9 @@ let appData = {
     getExpensesMonth: function () {
         for (let key in appData.expenses) {
             appData.expensesMonth += appData.expenses[key];
+            console.log(typeof appData.expenses[key]);
         }
+
     },
 
     getBudget: function () {
@@ -55,7 +57,12 @@ let appData = {
     },
 
     getTargetMonth: function () {
-        appData.expensesMonth = Math.ceil(appData.mission / appData.budgetMonth);
+        let targetMonth = Math.ceil(appData.mission / appData.budgetMonth);
+        if (targetMonth < 0) {
+            console.log('Цель не будет достигнута');
+        } else  {
+            console.log('Цель будет достигнута за: ' + targetMonth + ' мес');
+        }
     },
 
     getStatusIncome: function () {
@@ -71,6 +78,7 @@ let appData = {
     },
 
 };
+console.log(appData);
 
 appData.asking();
 appData.getExpensesMonth();
@@ -79,8 +87,6 @@ appData.getTargetMonth();
 appData.getStatusIncome();
 
 console.log('Расходы за месяц: ' + appData.expensesMonth);
-console.log(appData.expensesMonth < 0 ? 'Цель не будет достигнута' : 'Цель будет достигнута за: ' +
-    appData.expensesMonth + 'мес');
 console.log('Бюджет за день: ', appData.budgetDay);
 
 console.log('Наша программа включает в себя данные: ');
