@@ -60,7 +60,7 @@ let appData = {
         let targetMonth = Math.ceil(appData.mission / appData.budgetMonth);
         if (targetMonth < 0) {
             console.log('Цель не будет достигнута');
-        } else  {
+        } else {
             console.log('Цель будет достигнута за: ' + targetMonth + ' мес');
         }
     },
@@ -90,11 +90,32 @@ console.log('Расходы за месяц: ' + appData.expensesMonth);
 console.log('Бюджет за день: ', appData.budgetDay);
 
 console.log('Наша программа включает в себя данные: ');
+
+
 for (let key in appData) {
     console.log('Ключ: ' + key + ' ' + 'Значение: ' + appData[key]);
+    if (typeof appData[key] === 'object') {
+        for (let j in appData[key])
+            console.log('Ключ: ' + j + ' ' + 'Значение: ' + appData[key][j]);
+    }
 }
 
 
+// function getFiniteValue(appData) {
+//     getProp(appData);
+//
+//     function getProp(obj) {
+//         for(let key in obj) {
+//             if(typeof(obj[key]) === 'object') {
+//                 getProp(obj[key]);
+//             } else {
+//                 console.log('Ключ: ' + key + ' ' + 'Значение: '  + obj[key]);
+//             }
+//         }
+//     }
+// }
+//
+// getFiniteValue(appData);
 
 
 
