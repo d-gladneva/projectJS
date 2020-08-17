@@ -101,8 +101,8 @@ let appData = {
     getInfoDeposit: function () {
         if (appData.deposit) {
             do {
-                appData.percentDeposit = prompt('Какой годовой депозит?', '10');
-            } while (!isNaN(appData.percentDeposit) || typeof appData.percentDeposit === 'number' || appData.percentDeposit === null);
+                appData.percentDeposit = prompt('Какой годовой процент?', '10');
+            } while (!isNumber(appData.moneyDeposit));
 
             do {
                 appData.moneyDeposit = prompt('Какой годовой депозит?', 10000);
