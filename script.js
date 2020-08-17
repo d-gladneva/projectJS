@@ -28,7 +28,7 @@ let appData = {
     expensesMonth: 0,
     asking: function () {
         let addExpenses = prompt('Перечислите возможные расходы за рассчитываемый период через запятую');
-        appData.addExpenses = addExpenses.toLowerCase().split(' ');
+        appData.addExpenses = addExpenses.toLowerCase().split(', ');
         appData.deposit = confirm('Есть ли у Вас депозит в банке?');
 
         for (let i = 0; i < 2; i++) {
@@ -93,10 +93,10 @@ console.log('Наша программа включает в себя данны
 
 
 for (let key in appData) {
-    console.log('Ключ: ' + key + ' ' + 'Значение: ' + appData[key]);
+    console.log('Ключ: ' , key ,' ' , 'Значение: ' , appData[key]);
     if (typeof appData[key] === 'object') {
         for (let j in appData[key])
-            console.log('Ключ: ' + j + ' ' + 'Значение: ' + appData[key][j]);
+            console.log('Ключ: ', j ,' ' ,'Значение: ' , appData[key][j]);
     }
 }
 
