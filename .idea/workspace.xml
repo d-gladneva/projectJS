@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="063e1429-730e-41de-94e1-d00f355ffb11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lexicalEnvironment" beforeDir="false" afterPath="$PROJECT_DIR$/lexicalEnvironment" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lexicalEnvironment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lexicalEnvironment/.idea/workspace.xml" afterDir="false" />
@@ -26,8 +31,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="106" column="16" lean-forward="true" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+            <state relative-caret-position="289">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -36,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -46,6 +60,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>targetMonthResult</find>
+      <find>expenses_add</find>
+      <find>budget_day-value</find>
+      <find>additional_income-item</find>
+      <find>additionalIncomeItem</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -58,6 +76,7 @@
         <option value="$PROJECT_DIR$/composition/composition.html" />
         <option value="$PROJECT_DIR$/composition/composition.js" />
         <option value="$PROJECT_DIR$/../script.js" />
+        <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/script.js" />
       </list>
     </option>
@@ -80,6 +99,21 @@
             <path>
               <item name="projectJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="projectJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectJS" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectJS" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectJS" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectJS" type="b2602c69:ProjectViewProjectNode" />
@@ -132,18 +166,18 @@
       <updated>1596881832618</updated>
       <workItem from="1596881834254" duration="11091000" />
       <workItem from="1597308275072" duration="51725000" />
-      <workItem from="1597648295263" duration="14419000" />
+      <workItem from="1597648295263" duration="24607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124891000" />
+    <option name="totallyTimeSpent" value="135079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1263911" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2782194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -155,7 +189,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.1474245" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.053285968" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.54884547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -189,14 +223,21 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="106" column="16" lean-forward="true" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+        <state relative-caret-position="289">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
