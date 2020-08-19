@@ -1,76 +1,30 @@
-// const start = document.getElementById('start');
-// const incomeAdd = document.getElementsByTagName('button')[0];
-// const expensesAdd = document.getElementsByTagName('button')[1];
-// const depositCheckmark = document.querySelector('.deposit-checkmark');
-// const additionalIncomeItem = document.querySelectorAll('.additional_income-item');
-//
-// const budgetMonthValue = document.getElementsByTagName('budget_month-value')[0];
-// const budgetDayValue = document.getElementsByTagName('budget_day-value')[0];
-// const expensesMonthValue = document.getElementsByTagName('expenses_month-value')[0];
-// const additionalIncomeValue = document.getElementsByTagName('additional_income-value')[0];
-// const additionalExpensesValue = document.getElementsByTagName('additional_expenses-value')[0];
-// const incomePeriodValue = document.getElementsByTagName('income_period-value')[0];
-// const targetMonthValue = document.getElementsByTagName('budget_month-value')[0];
-//
-// const salaryAmount = document.querySelector('.salary-amount');
-// const incomeItems = document.querySelector('.income-items');
-// const incomeTitle = incomeItems.querySelector('.income-title');
-//
-// const incomeAmount = document.querySelector('.income-amount');
-// const expensesItems = document.querySelector('.expenses-items');
-// const expensesTitle = expensesItems.querySelector('.expenses-title');
-//
-// const expensesAmount = document.querySelector('.expenses-amount');
-// const additionalExpensesItem = document.querySelector('.additional_expenses-item');
-// const targetAmount = document.querySelector('.target-amount');
-// const periodSelect = document.querySelector('.periodSelect');
+const start = document.getElementById('start');
+const incomeAdd = document.getElementsByTagName('button')[0];
+const expensesAdd = document.getElementsByTagName('button')[1];
+const depositCheckmark = document.querySelector('.deposit-checkmark');
+const additionalIncomeItem = document.querySelectorAll('.additional_income-item');
 
-//восстановить порядок книг
-const book = document.querySelectorAll('.book');
-const books = document.querySelectorAll('.books');
+const budgetMonthValue = document.getElementsByTagName('budget_month-value')[0];
+const budgetDayValue = document.getElementsByTagName('budget_day-value')[0];
+const expensesMonthValue = document.getElementsByTagName('expenses_month-value')[0];
+const additionalIncomeValue = document.getElementsByTagName('additional_income-value')[0];
+const additionalExpensesValue = document.getElementsByTagName('additional_expenses-value')[0];
+const incomePeriodValue = document.getElementsByTagName('income_period-value')[0];
+const targetMonthValue = document.getElementsByTagName('budget_month-value')[0];
 
-console.log(books);
-console.log(book);
+const salaryAmount = document.querySelector('.salary-amount');
+const incomeItems = document.querySelector('.income-items');
+const incomeTitle = incomeItems.querySelector('.income-title');
 
-books[0].prepend(book[1]);
-book[2].before(book[4]);
-books[0].append(book[2]);
+const incomeAmount = document.querySelector('.income-amount');
+const expensesItems = document.querySelector('.expenses-items');
+const expensesTitle = expensesItems.querySelector('.expenses-title');
 
-//заменить фон
-document.body.style.backgroundImage='url(./image/you-dont-know-js.jpg)';
+const expensesAmount = document.querySelector('.expenses-amount');
+const additionalExpensesItem = document.querySelector('.additional_expenses-item');
+const targetAmount = document.querySelector('.target-amount');
+const periodSelect = document.querySelector('.periodSelect');
 
-//исправить заголовок
-book[4].querySelector('a').textContent = 'Книга 3. this и Прототипы Объектов';
-
-//удалить рекламу
-const removeAdv = document.querySelector('.adv');
-removeAdv.remove();
-
-//восстановить порядок глав во 2й и 5й книгах
-const list = book[0].querySelectorAll('ul');
-const elemsLi = book[0].querySelectorAll('li');
-
-elemsLi[1].remove();
-list[0].prepend(elemsLi[1]);
-elemsLi[3].after(elemsLi[6]);
-elemsLi[4].before(elemsLi[8]);
-elemsLi[10].before(elemsLi[2]);
-
-const list5 = book[5].querySelectorAll('ul');
-const elemsLi5 = book[5].querySelectorAll('li');
-
-list5[0].prepend(elemsLi5[1]);
-elemsLi5[2].after(elemsLi5[9]);
-elemsLi5[5].after(elemsLi5[2]);
-elemsLi5[8].before(elemsLi5[5]);
-
-//добавить 8ю главу в шестой книге
-
-const elemsLi6 = book[2].querySelectorAll('li');
-const newElem = document.createElement('li');
-
-newElem.textContent = 'Глава 8: За пределами ES6';
-elemsLi6[8].after(newElem);
 
 
 
