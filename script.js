@@ -5,7 +5,6 @@ const depositCheckmark = document.querySelector('.deposit-checkmark');
 const additionalIncomeItem = document.querySelectorAll('.additional_income-item');
 
 let budgetMonthValue = document.getElementsByClassName('budget_month-value')[0];
-console.log('перемен', budgetMonthValue);
 let budgetDayValue = document.getElementsByClassName('budget_day-value')[0];
 const expensesMonthValue = document.getElementsByClassName('expenses_month-value')[0];
 const additionalIncomeValue = document.getElementsByClassName('additional_income-value')[0];
@@ -23,10 +22,8 @@ let expensesItems = document.querySelectorAll('.expenses-items');
 const expensesTitle = expensesItems[0].querySelector('.expenses-title');
 const additionalExpensesItem = document.querySelector('.additional_expenses-item');
 const targetAmount = document.querySelector('.target-amount');
-console.log(targetAmount);
 const periodSelect = document.querySelector('.period-select');
 let periodAmount = document.querySelector('.period-amount');
-console.log(periodAmount);
 
 start.disabled = true;
 
