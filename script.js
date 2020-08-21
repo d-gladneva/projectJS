@@ -24,6 +24,8 @@ const additionalExpensesItem = document.querySelector('.additional_expenses-item
 const targetAmount = document.querySelector('.target-amount');
 const periodSelect = document.querySelector('.period-select');
 let periodAmount = document.querySelector('.period-amount');
+let resultTotal = document.querySelector('.result-total');
+
 
 start.disabled = true;
 
@@ -54,6 +56,7 @@ let appData = {
         appData.showResult();
     },
     showResult: function () {
+        resultTotal.addEventListener('input', appData.periodResultTotal);
         budgetMonthValue.value = appData.budgetMonth;
         budgetDayValue.value = appData.budgetDay;
         expensesMonthValue.value = appData.expensesMonth;
@@ -62,6 +65,7 @@ let appData = {
         targetMonthValue.value = appData.getTargetMonth();
         incomePeriodValue.value = appData.calcSavedMoney();
         incomePeriodValue.value = appData.calcSavedMoney();
+
     },
 
     budget: 0,
@@ -187,6 +191,9 @@ let appData = {
         periodAmount.textContent = periodSelect.value;
 
     },
+    periodResultTotal: function(){
+        return periodSelect.value * salaryAmount.value;
+},
     checkSalaryAmount: function () {
 
         if (salaryAmount.value && isNumber(salaryAmount.value)) {
@@ -203,6 +210,7 @@ expensesAdd.addEventListener('click', appData.addExpensesBlock);
 incomeAdd.addEventListener('click', appData.addIncomeBlock);
 periodSelect.addEventListener('input', appData.periodSelect);
 salaryAmount.addEventListener('input', appData.checkSalaryAmount);
+
 
 appData.getTargetMonth();
 appData.getStatusIncome();
