@@ -68,6 +68,8 @@ let appData = {
             start.style.display = 'none';
             cancel.style.display = 'block';
 
+            console.log(appData);
+
         },
 
         showResult: function () {
@@ -240,6 +242,22 @@ let appData = {
 
             cancel.style.display = 'none';
             start.style.display = 'block';
+
+            appData = {
+                income: {},
+                incomeMonth: 0,
+                addIncome: [],
+                expenses: {},
+                addExpenses: [],
+                deposit: false,
+                percentDeposit: 0,
+                moneyDeposit: 0,
+                budget: 0,
+                budgetDay: 0,
+                budgetMonth: 0,
+                expensesMonth: 0,
+            };
+            console.log(appData);
         }
     }
 ;
