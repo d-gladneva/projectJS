@@ -243,20 +243,19 @@ let appData = {
             cancel.style.display = 'none';
             start.style.display = 'block';
 
-            appData = {
-                income: {},
-                incomeMonth: 0,
-                addIncome: [],
-                expenses: {},
-                addExpenses: [],
-                deposit: false,
-                percentDeposit: 0,
-                moneyDeposit: 0,
-                budget: 0,
-                budgetDay: 0,
-                budgetMonth: 0,
-                expensesMonth: 0,
-            };
+            this.income={};
+            this.incomeMonth = 0;
+            this.addIncome=[];
+            this.expenses={};
+            this.addExpenses=[];
+            this.deposit=false;
+            this.percentDeposit=0;
+            this.moneyDeposit=0;
+            this.budget=0;
+            this.budgetDay=0;
+            this.budgetMonth=0;
+            this.expensesMonth=0;
+
             console.log(appData);
         }
     }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="063e1429-730e-41de-94e1-d00f355ffb11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lexicalEnvironment" beforeDir="false" afterPath="$PROJECT_DIR$/lexicalEnvironment" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lexicalEnvironment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lexicalEnvironment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="255" column="38" lean-forward="true" selection-start-line="255" selection-start-column="38" selection-end-line="255" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -69,6 +70,7 @@
       <find>periodAmount</find>
       <find>create</find>
       <find>conso</find>
+      <find>key</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,12 +178,12 @@
       <workItem from="1598086368270" duration="7874000" />
       <workItem from="1598590218974" duration="12804000" />
       <workItem from="1598941715410" duration="705000" />
-      <workItem from="1598949563687" duration="30935000" />
+      <workItem from="1598949563687" duration="33072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241526000" />
+    <option name="totallyTimeSpent" value="243663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -199,7 +201,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.08703375" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.10124334" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.54884547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -244,8 +246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        <state relative-caret-position="247">
+          <caret line="255" column="38" lean-forward="true" selection-start-line="255" selection-start-column="38" selection-end-line="255" selection-end-column="38" />
         </state>
       </provider>
     </entry>
