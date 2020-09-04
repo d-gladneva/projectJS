@@ -60,6 +60,7 @@ let appData = {
             this.getInfoDeposit();
             this.getTargetMonth();
             this.getStatusIncome();
+            this.periodResultTotal();
 
             for (let i = 0; i < inputElems.length; i++) {
                 inputElems[i].disabled = true;
@@ -171,7 +172,8 @@ let appData = {
         },
 
         getTargetMonth: function () {
-            return Math.ceil(targetAmount.value / this.budgetMonth);
+            if (targetAmount.value && this.budgetMonth)
+                return Math.ceil(targetAmount.value / this.budgetMonth);
         },
 
         getStatusIncome: function () {
@@ -243,7 +245,7 @@ let appData = {
 
             cancel.style.display = 'none';
             start.style.display = 'block';
-
+            this.checkSalaryAmount();
             this.income = {};
             this.incomeMonth = 0;
             this.addIncome = [];
@@ -266,7 +268,7 @@ incomeAdd.addEventListener('click', appData.addIncomeBlock.bind(appData));
 periodSelect.addEventListener('input', appData.periodSelect.bind(appData));
 salaryAmount.addEventListener('input', appData.checkSalaryAmount.bind(appData));
 cancel.addEventListener('click', appData.reset.bind(appData));
-periodSelect.addEventListener('input', appData.periodResultTotal.bind(appData));
+// periodSelect.addEventListener('click', appData.periodResultTotal.bind(appData));
 
 
 // console.log('Расходы за месяц: ' + this.expensesMonth);
