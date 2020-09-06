@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="063e1429-730e-41de-94e1-d00f355ffb11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/untitled/scriptCopy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lexicalEnvironment" beforeDir="false" afterPath="$PROJECT_DIR$/lexicalEnvironment" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lexicalEnvironment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lexicalEnvironment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/index.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="171" column="10" lean-forward="true" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="10" />
-              <folding>
-                <marker date="1599217853737" expanded="true" signature="3538:3598" ph="..." />
-              </folding>
+            <state relative-caret-position="4355">
+              <caret line="291" selection-start-line="291" selection-end-line="291" />
             </state>
           </provider>
         </entry>
@@ -38,8 +37,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="80" column="94" lean-forward="true" selection-start-line="80" selection-start-column="94" selection-end-line="80" selection-end-column="94" />
+            <state relative-caret-position="136">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untitled/scriptCopy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="91" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -48,9 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>additionalIncomeItem</find>
-      <find>additional_expenses-item</find>
-      <find>expensesItems</find>
       <find>.income-items</find>
       <find>getexpenses</find>
       <find>incomeItems</find>
@@ -66,7 +71,6 @@
       <find>start</find>
       <find>incomeAdd</find>
       <find>periodAmount</find>
-      <find>create</find>
       <find>conso</find>
       <find>key</find>
       <find>addExpensesBlock</find>
@@ -78,6 +82,10 @@
       <find>reset</find>
       <find>targetMonthValue</find>
       <find>disabled</find>
+      <find>addIncome</find>
+      <find>percent</find>
+      <find>additionalIncomeValue</find>
+      <find>create</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,6 +100,7 @@
         <option value="$PROJECT_DIR$/../script.js" />
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/lesson10/index2.html" />
+        <option value="$PROJECT_DIR$/untitled/scriptCopy.js" />
         <option value="$PROJECT_DIR$/script.js" />
       </list>
     </option>
@@ -132,6 +141,11 @@
             </path>
             <path>
               <item name="projectJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectJS" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -148,12 +162,16 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ticTacToe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/untitled" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\projectJS\untitled" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\projectJS\untitled\" />
       <recent name="C:\Projects\projectJS\composition" />
     </key>
   </component>
@@ -185,18 +203,18 @@
       <workItem from="1598086368270" duration="7874000" />
       <workItem from="1598590218974" duration="12804000" />
       <workItem from="1598941715410" duration="705000" />
-      <workItem from="1598949563687" duration="48516000" />
+      <workItem from="1598949563687" duration="61909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259107000" />
+    <option name="totallyTimeSpent" value="272500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18124007" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14944357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -208,7 +226,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.07637656" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.25044405" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.54884547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -241,23 +259,30 @@
     <entry file="file://$PROJECT_DIR$/lesson10/image/open_book.jpg" />
     <entry file="file://$PROJECT_DIR$/lesson10/index2.html" />
     <entry file="file://$PROJECT_DIR$/lesson10/style.css" />
+    <entry file="file://$PROJECT_DIR$/untitled/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/scriptCopy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="91" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="80" column="94" lean-forward="true" selection-start-line="80" selection-start-column="94" selection-end-line="80" selection-end-column="94" />
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="171" column="10" lean-forward="true" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="10" />
-          <folding>
-            <marker date="1599217853737" expanded="true" signature="3538:3598" ph="..." />
-          </folding>
+        <state relative-caret-position="4355">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
         </state>
       </provider>
     </entry>
