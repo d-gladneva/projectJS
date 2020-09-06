@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="063e1429-730e-41de-94e1-d00f355ffb11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexicalEnvironment" beforeDir="false" afterPath="$PROJECT_DIR$/lexicalEnvironment" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexicalEnvironment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lexicalEnvironment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexicalEnvironment" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4355">
-              <caret line="291" selection-start-line="291" selection-end-line="291" />
+            <state relative-caret-position="139">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -72,8 +70,8 @@
       <find>disabled</find>
       <find>addIncome</find>
       <find>percent</find>
-      <find>additionalIncomeValue</find>
       <find>create</find>
+      <find>additionalIncomeValue</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,12 +189,12 @@
       <workItem from="1598086368270" duration="7874000" />
       <workItem from="1598590218974" duration="12804000" />
       <workItem from="1598941715410" duration="705000" />
-      <workItem from="1598949563687" duration="62466000" />
+      <workItem from="1598949563687" duration="62861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273057000" />
+    <option name="totallyTimeSpent" value="273452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -213,7 +211,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.25044405" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.339254" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.54884547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -266,10 +264,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lexicalEnvironment/lexicalEnvironment.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4355">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
+        <state relative-caret-position="139">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
         </state>
       </provider>
     </entry>
