@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="063e1429-730e-41de-94e1-d00f355ffb11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lexicalEnvironment" beforeDir="false" />
-    </list>
+    <list default="true" id="063e1429-730e-41de-94e1-d00f355ffb11" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -189,12 +187,12 @@
       <workItem from="1598086368270" duration="7874000" />
       <workItem from="1598590218974" duration="12804000" />
       <workItem from="1598941715410" duration="705000" />
-      <workItem from="1598949563687" duration="62861000" />
+      <workItem from="1598949563687" duration="63246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273452000" />
+    <option name="totallyTimeSpent" value="273837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -211,7 +209,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.339254" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.56483126" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.54884547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
