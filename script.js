@@ -249,8 +249,8 @@ AppData.prototype.reset = function () {
 
     const CopyAppData = new AppData();
 
-    Object.assign({AppData}, appData);
-    console.log(CopyAppData);
+    Object.assign(this, CopyAppData);
+
 
     cancel.style.display = 'none';
     start.style.display = 'block';
@@ -268,6 +268,7 @@ AppData.prototype.eventListeners = function () {
 
 appData.eventListeners();
 
+console.log(AppData);
 console.log(appData);
 
 
