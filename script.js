@@ -248,10 +248,8 @@ AppData.prototype.reset = function () {
     }
 
     const CopyAppData = new AppData();
-    AppData.prototype.copy = function () {
-        Object.assign({}, appData);
-    };
-    CopyAppData.copy();
+
+    Object.assign({AppData}, appData);
     console.log(CopyAppData);
 
     cancel.style.display = 'none';
@@ -268,7 +266,7 @@ AppData.prototype.eventListeners = function () {
     cancel.addEventListener('click', appData.reset.bind(appData));
 };
 
-AppData.prototype.eventListeners();
+appData.eventListeners();
 
 console.log(appData);
 
