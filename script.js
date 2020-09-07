@@ -37,37 +37,22 @@ let isNumber = function (n) {
     return !isNaN(parseFloat(n)) && isFinite(n);
 };
 
-function AppData(income, incomeMonth, addIncome, expenses, addExpenses,deposit,percentDeposit, moneyDeposit, budget, budgetDay, budgetMonth, expensesMonth) {
-    this.income = income;
-    this.incomeMonth = incomeMonth;
-    this.addIncome = addIncome;
-    this.expenses = expenses;
-    this.addExpenses = addExpenses;
-    this.deposit = deposit;
-    this.percentDeposit = percentDeposit;
-    this.moneyDeposit = moneyDeposit;
-    this.budget = budget;
-    this.budgetDay = budgetDay;
-    this.budgetMonth = budgetMonth;
-    this.expensesMonth = expensesMonth;
-}
+const AppData = function () {
+    this.income = {};
+    this.incomeMonth = 0;
+    this.addIncome = [];
+    this.expenses = {};
+    this.addExpenses = [];
+    this.deposit = false;
+    this.percentDeposit = 0;
+    this.moneyDeposit = 0;
+    this.budget = 0;
+    this.budgetDay = 0;
+    this.budgetMonth = 0;
+    this.expensesMonth = 0;
+};
 
-let appData = new AppData ({}, 0, [], {}, [], false, 0, 0, 0, 0, 0, 0, 0);
-
-// const AppData = function () {
-//     this.income = {};
-//     this.incomeMonth = 0;
-//     this.addIncome = [];
-//     this.expenses = {};
-//     this.addExpenses = [];
-//     this.deposit = false;
-//     this.percentDeposit = 0;
-//     this.moneyDeposit = 0;
-//     this.budget = 0;
-//     this.budgetDay = 0;
-//     this.budgetMonth = 0;
-//     this.expensesMonth = 0;
-// };
+let appData = new AppData();
 
 AppData.prototype.start = function () {
     this.budget = +salaryAmount.value;
@@ -104,8 +89,7 @@ AppData.prototype.showResult = function () {
     additionalIncomeValue.value = this.addIncome.join(', ');
     targetMonthValue.value = this.getTargetMonth();
     incomePeriodValue.value = this.calcSavedMoney();
-    periodSelect.addEventListener('click', me.periodResultTotal.bind(appData));
-
+    // periodSelect.addEventListener('click', me.periodResultTotal.bind(appData));
 };
 
 AppData.prototype.addExpensesBlock = function () {
@@ -263,24 +247,19 @@ AppData.prototype.reset = function () {
         inputAllElems[i].value = '';
     }
 
+    const CopyAppData = new AppData();
+    AppData.prototype.copy = function () {
+        Object.assign({}, appData);
+    };
+    CopyAppData.copy();
+    console.log(CopyAppData);
+
     cancel.style.display = 'none';
     start.style.display = 'block';
     this.checkSalaryAmount();
-    this.income = {};
-    this.incomeMonth = 0;
-    this.addIncome = [];
-    this.expenses = {};
-    this.addExpenses = [];
-    this.deposit = false;
-    this.percentDeposit = 0;
-    this.moneyDeposit = 0;
-    this.budget = 0;
-    this.budgetDay = 0;
-    this.budgetMonth = 0;
-    this.expensesMonth = 0;
 };
 
-AppData.prototype.eventListeners = function(){
+AppData.prototype.eventListeners = function () {
     start.addEventListener('click', appData.start.bind(appData));
     expensesAdd.addEventListener('click', appData.addExpensesBlock.bind(appData));
     incomeAdd.addEventListener('click', appData.addIncomeBlock.bind(appData));
@@ -292,9 +271,6 @@ AppData.prototype.eventListeners = function(){
 AppData.prototype.eventListeners();
 
 console.log(appData);
-
-
-
 
 
 // console.log('Расходы за месяц: ' + this.expensesMonth);
