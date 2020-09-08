@@ -203,13 +203,13 @@ class AppData {
     }
 
     addExpIncBlock(){
-        const starStr = item.className.split('-')[0];
+        const starStr = data.className.split('-')[0];
         console.log(starStr);
         let cloneIncomeItem = incomeItems[0].cloneNode(true);
         incomeItems[0].parentNode.insertBefore(cloneIncomeItem, incomeAdd);
         let cloneExpensesItem = expensesItems[0].cloneNode(true);
         expensesItems[0].parentNode.insertBefore(cloneExpensesItem, expensesAdd);
-        const addItems = document.querySelectorAll(`.${starStr}-items`);
+        const addItems = data.querySelectorAll(`.${starStr}-items`);
 
         if (addItems.length === 3) {
             expensesAdd.style.display = "none";
@@ -318,8 +318,8 @@ class AppData {
     eventListeners() {
         start.addEventListener('click', this.start.bind(this));
         console.log(this);
-        expensesAdd.addEventListener('click', this.addExpensesBlock.bind(this));
-        incomeAdd.addEventListener('click', this.addIncomeBlock.bind(this));
+        expensesAdd.addEventListener('click', this.addExpIncBlock.bind(this));
+        incomeAdd.addEventListener('click', this.addExpIncBlock.bind(this));
         periodSelect.addEventListener('input', this.periodSelect.bind(this));
         salaryAmount.addEventListener('input', this.checkSalaryAmount.bind(this));
         cancel.addEventListener('click', this.reset.bind(this));
