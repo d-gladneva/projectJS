@@ -318,8 +318,8 @@ class AppData {
     eventListeners() {
         start.addEventListener('click', this.start.bind(this));
         console.log(this);
-        expensesAdd.addEventListener('click', this.addIncomeBlock.bind(this));
-        incomeAdd.addEventListener('click', this.addExpensesBlock.bind(this));
+        expensesAdd.addEventListener('click', this.addExpensesBlock.bind(this));
+        incomeAdd.addEventListener('click', this.addIncomeBlock.bind(this));
         periodSelect.addEventListener('input', this.periodSelect.bind(this));
         salaryAmount.addEventListener('input', this.checkSalaryAmount.bind(this));
         cancel.addEventListener('click', this.reset.bind(this));
