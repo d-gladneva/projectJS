@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="275" column="34" lean-forward="true" selection-start-line="275" selection-start-column="34" selection-end-line="275" selection-end-column="34" />
+            <state relative-caret-position="136">
+              <caret line="226" column="22" selection-start-line="226" selection-start-column="13" selection-end-line="226" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -43,7 +43,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>пере</find>
       <find>start</find>
       <find>incomeAdd</find>
       <find>periodAmount</find>
@@ -73,6 +72,7 @@
       <find>salaryAmount.value</find>
       <find>isNumber</find>
       <find>checkSalaryAmount</find>
+      <find>budgetmon</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,15 +192,16 @@
       <workItem from="1598590218974" duration="12804000" />
       <workItem from="1598941715410" duration="705000" />
       <workItem from="1598949563687" duration="106582000" />
-      <workItem from="1599630549778" duration="15974000" />
+      <workItem from="1599630549778" duration="19666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333147000" />
+    <option name="totallyTimeSpent" value="336839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14944357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -214,7 +215,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.27886322" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.13321492" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.54884547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -268,8 +269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="275" column="34" lean-forward="true" selection-start-line="275" selection-start-column="34" selection-end-line="275" selection-end-column="34" />
+        <state relative-caret-position="136">
+          <caret line="226" column="22" selection-start-line="226" selection-start-column="13" selection-end-line="226" selection-end-column="22" />
         </state>
       </provider>
     </entry>

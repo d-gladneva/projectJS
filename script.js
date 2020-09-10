@@ -60,17 +60,17 @@ class AppData {
 
     start() {
         this.budget = +salaryAmount.value;
-        console.log('salaryAmount.value', salaryAmount.value);
-
         this.getExpInc();
         this.getExpensesMonth();
-        this.getInfoDeposit();
-        this.getBudget();
         this.getAddExpenses();
         this.getAddIncome();
+        this.getInfoDeposit();
+        this.getBudget();
+        this.getTargetMonth();
+
         this.showResult();
 
-        this.getTargetMonth();
+
         this.getStatusIncome();
         this.periodResultTotal();
 
@@ -144,17 +144,17 @@ class AppData {
             if (itemValue !== '') {
                 this.addIncome.push(itemValue);
             }
-        });
+        }.bind(this));
     }
 
-    getAddExpenses() {
+   getAddExpenses() {
         let addExpenses = additionalExpensesItem.value.split(',');
         addExpenses.forEach(function (item) {
             item = item.trim();
             if (item !== '') {
                 this.addExpenses.push(item);
             }
-        });
+        }.bind(this));
     }
 
     // getAddIncExp(){
