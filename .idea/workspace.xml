@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="137" column="20" lean-forward="true" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+            <state relative-caret-position="280">
+              <caret line="275" column="34" lean-forward="true" selection-start-line="275" selection-start-column="34" selection-end-line="275" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -43,11 +43,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>income</find>
-      <find>salar</find>
-      <find>budget</find>
-      <find>budgetMonthValue</find>
-      <find>isNumber</find>
       <find>пере</find>
       <find>start</find>
       <find>incomeAdd</find>
@@ -56,14 +51,12 @@
       <find>key</find>
       <find>addIncomeBlock</find>
       <find>periodSelect</find>
-      <find>checkSalaryAmount</find>
       <find>getIncome</find>
       <find>getInfoDeposit</find>
       <find>reset</find>
       <find>targetMonthValue</find>
       <find>disabled</find>
       <find>addIncome</find>
-      <find>percent</find>
       <find>create</find>
       <find>additionalIncomeValue</find>
       <find>appData</find>
@@ -73,6 +66,13 @@
       <find>Month</find>
       <find>additionalncomeItem</find>
       <find>addExpensesBlock</find>
+      <find>check</find>
+      <find>getinfo</find>
+      <find>percent</find>
+      <find>getbud</find>
+      <find>salaryAmount.value</find>
+      <find>isNumber</find>
+      <find>checkSalaryAmount</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../complicated/lesson05" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/pizza" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -192,12 +192,12 @@
       <workItem from="1598590218974" duration="12804000" />
       <workItem from="1598941715410" duration="705000" />
       <workItem from="1598949563687" duration="106582000" />
-      <workItem from="1599630549778" duration="2465000" />
+      <workItem from="1599630549778" duration="15974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319638000" />
+    <option name="totallyTimeSpent" value="333147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -214,7 +214,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.15808171" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.27886322" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.54884547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -268,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="137" column="20" lean-forward="true" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+        <state relative-caret-position="280">
+          <caret line="275" column="34" lean-forward="true" selection-start-line="275" selection-start-column="34" selection-end-line="275" selection-end-column="34" />
         </state>
       </provider>
     </entry>
