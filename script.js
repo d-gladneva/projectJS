@@ -32,7 +32,6 @@ const data = document.querySelector('.data');
 const income = document.querySelector('.income');
 const inputElems = data.querySelectorAll('input[type="text"]');
 const inputAllElems = document.querySelectorAll('input[type="text"]');
-console.log(inputElems);
 const cancel = document.getElementById('cancel');
 
 start.disabled = true;
@@ -123,7 +122,6 @@ class AppData {
     getExpInc() {
         const count = item => {
             const starStr = item.className.split('-')[0];
-            console.log(starStr);
             const itemTitle = item.querySelector(`.${starStr}-title`).value;
             const itemAmount = item.querySelector(`.${starStr}-amount`).value;
             if (itemTitle !== '' && itemAmount !== '') {
@@ -182,7 +180,6 @@ class AppData {
         let cloneIncomeItem = incomeItems[0].cloneNode(true);
         incomeItems[0].parentNode.insertBefore(cloneIncomeItem, incomeAdd);
         incomeItems = document.querySelectorAll('.income-items');
-        console.log(incomeItems.length);
 
         if (incomeItems.length === 3) {
             incomeAdd.style.display = "none";
@@ -194,7 +191,6 @@ class AppData {
         let cloneExpensesItem = expensesItems[0].cloneNode(true);
         expensesItems[0].parentNode.insertBefore(cloneExpensesItem, expensesAdd);
         expensesItems = document.querySelectorAll('.expenses-items');
-        console.log(expensesItems.length);
 
         if (expensesItems.length === 3) {
             expensesAdd.style.display = "none";
@@ -360,7 +356,6 @@ class AppData {
                 depositAmount.value = '';
         } else {
             depositPercent.value = valueSelect;
-            console.log(valueSelect);
             depositPercent.style.display = 'none';
             if (depositAmount.value !== '') {
                 start.disabled = false;
