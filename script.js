@@ -66,11 +66,12 @@ class AppData {
         this.getInfoDeposit();
         this.getBudget();
         this.getTargetMonth();
+        this.periodResultTotal();
         this.showResult();
 
 
         this.getStatusIncome();
-        this.periodResultTotal();
+
 
         for (let i = 0; i < inputElems.length; i++) {
             inputElems[i].disabled = true;
@@ -220,13 +221,13 @@ class AppData {
     }
 
     getBudget() {
-        const monthDeposit = this.moneyDeposit * this.percentDeposit / 100;
+        const monthDeposit = this.moneyDeposit * this.percentDeposit;
         this.budgetMonth = this.budget + this.incomeMonth - this.expensesMonth + monthDeposit;
         this.budgetDay = Math.floor(this.budgetMonth / 30);
     }
 
     getTargetMonth() {
-        if (targetAmount.value && this.budgetMonth)
+        // if (targetAmount.value && this.budgetMonth)
             return Math.ceil(targetAmount.value / this.budgetMonth);
     }
 
@@ -304,7 +305,7 @@ class AppData {
         depositAmount.style.display = 'none';
         depositPercent.style.display = 'none';
         this.checkSalaryAmount();
-        // this.checkTargetAmount();
+        this.checkTargetAmount();
     }
 
     getInfoDeposit() {
@@ -337,6 +338,7 @@ class AppData {
             depositPercent.style.display = 'inline-block';
             depositPercent.disabled = false;
             depositPercent.addEventListener('input', ()=>{
+                depositPercent.value = depositPercent.value/100;
                 if (!isNumber(depositPercent.value) || depositPercent.value > 100 || depositPercent.value<0) {
                     alert('Введите число от 0 до 100!');
                     depositPercent.value = '';
@@ -424,7 +426,7 @@ class AppData {
         incomeAdd.addEventListener('click', this.addIncomeBlock.bind(this));
         periodSelect.addEventListener('input', this.periodSelect.bind(this));
         salaryAmount.addEventListener('input', this.checkSalaryAmount.bind(this));
-        // targetAmount.addEventListener('input', this.checkTargetAmount.bind(this));
+        targetAmount.addEventListener('input', this.checkTargetAmount.bind(this));
         depositPercent.addEventListener('click', this.checkDepositPercentValue.bind(this));
         cancel.addEventListener('click', this.reset.bind(this));
         depositCheck.addEventListener('change', this.depositHandler.bind(this));
