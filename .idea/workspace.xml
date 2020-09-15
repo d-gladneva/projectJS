@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="063e1429-730e-41de-94e1-d00f355ffb11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,13 +24,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="340" column="64" lean-forward="true" selection-start-line="340" selection-start-column="64" selection-end-line="340" selection-end-column="64" />
+            <state relative-caret-position="-5910">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
-                <marker date="1600091891241" expanded="true" signature="11392:11436" ph="..." />
-                <marker date="1600091891241" expanded="true" signature="14422:14504" ph="..." />
-                <marker date="1600091891241" expanded="true" signature="14505:14587" ph="..." />
-                <marker date="1600091891241" expanded="true" signature="14588:14679" ph="..." />
+                <marker date="1600170107165" expanded="true" signature="11236:11319" ph="..." />
+                <marker date="1600170107165" expanded="true" signature="12158:12202" ph="..." />
+                <marker date="1600170107165" expanded="true" signature="14930:15004" ph="..." />
               </folding>
             </state>
           </provider>
@@ -48,10 +48,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>additionalncomeItem</find>
-      <find>addExpensesBlock</find>
-      <find>check</find>
-      <find>getinfo</find>
       <find>percent</find>
       <find>getbud</find>
       <find>salaryAmount.value</find>
@@ -72,12 +68,16 @@
       <find>salaryAmount</find>
       <find>checkDepositPercentValu</find>
       <find>checkTargetAmount</find>
-      <find>checkSalaryAmount</find>
       <find>console</find>
       <find>gettargetmonth</find>
       <find>getinfoDe</find>
       <find>gettarget</find>
       <find>/100</find>
+      <find>checkSalaryAmount</find>
+      <find>periodSelect</find>
+      <find>checkDepositPercentValue</find>
+      <find>consol</find>
+      <find>changePercent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,7 +150,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,15 +197,17 @@
       <workItem from="1598590218974" duration="12804000" />
       <workItem from="1598941715410" duration="705000" />
       <workItem from="1598949563687" duration="106582000" />
-      <workItem from="1599630549778" duration="75986000" />
+      <workItem from="1599630549778" duration="82419000" />
+      <workItem from="1600157089185" duration="7100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="393159000" />
+    <option name="totallyTimeSpent" value="406692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07949126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -219,7 +221,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.13854352" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.053285968" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.54884547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -273,13 +275,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="340" column="64" lean-forward="true" selection-start-line="340" selection-start-column="64" selection-end-line="340" selection-end-column="64" />
+        <state relative-caret-position="-5910">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
-            <marker date="1600091891241" expanded="true" signature="11392:11436" ph="..." />
-            <marker date="1600091891241" expanded="true" signature="14422:14504" ph="..." />
-            <marker date="1600091891241" expanded="true" signature="14505:14587" ph="..." />
-            <marker date="1600091891241" expanded="true" signature="14588:14679" ph="..." />
+            <marker date="1600170107165" expanded="true" signature="11236:11319" ph="..." />
+            <marker date="1600170107165" expanded="true" signature="12158:12202" ph="..." />
+            <marker date="1600170107165" expanded="true" signature="14930:15004" ph="..." />
           </folding>
         </state>
       </provider>
